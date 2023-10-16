@@ -6,5 +6,14 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\ClassicHome' => $baseDir . '/src/ClassicHome.php',
+    'App\\HomeBuilder' => $baseDir . '/src/HomeBuilder.php',
+    'App\\HomeBuilderInterface' => $baseDir . '/src/HomeBuilderInterface.php',
+    'App\\HomeDecorator' => $baseDir . '/src/HomeDecorator.php',
+    'App\\SliceBuilders\\DoorBuilder' => $baseDir . '/src/SliceBuilders/DoorBuilder.php',
+    'App\\SliceBuilders\\RoofBuilder' => $baseDir . '/src/SliceBuilders/RoofBuilder.php',
+    'App\\SliceBuilders\\SliceBuilderInterface' => $baseDir . '/src/SliceBuilders/SliceBuilderInterface.php',
+    'App\\SliceBuilders\\WallBuilder' => $baseDir . '/src/SliceBuilders/WallBuilder.php',
+    'App\\SliceBuilders\\WindowBuilder' => $baseDir . '/src/SliceBuilders/WindowBuilder.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

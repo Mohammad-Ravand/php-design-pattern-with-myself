@@ -7,20 +7,29 @@ namespace Composer\Autoload;
 class ComposerStaticInite28f8763df7612f7b8e85b262cbd6b86
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'A' => 
         array (
-            'Pc\\PhpDesignPatterns\\' => 21,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Pc\\PhpDesignPatterns\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
+        'App\\ClassicHome' => __DIR__ . '/../..' . '/src/ClassicHome.php',
+        'App\\HomeBuilder' => __DIR__ . '/../..' . '/src/HomeBuilder.php',
+        'App\\HomeBuilderInterface' => __DIR__ . '/../..' . '/src/HomeBuilderInterface.php',
+        'App\\HomeDecorator' => __DIR__ . '/../..' . '/src/HomeDecorator.php',
+        'App\\SliceBuilders\\DoorBuilder' => __DIR__ . '/../..' . '/src/SliceBuilders/DoorBuilder.php',
+        'App\\SliceBuilders\\RoofBuilder' => __DIR__ . '/../..' . '/src/SliceBuilders/RoofBuilder.php',
+        'App\\SliceBuilders\\SliceBuilderInterface' => __DIR__ . '/../..' . '/src/SliceBuilders/SliceBuilderInterface.php',
+        'App\\SliceBuilders\\WallBuilder' => __DIR__ . '/../..' . '/src/SliceBuilders/WallBuilder.php',
+        'App\\SliceBuilders\\WindowBuilder' => __DIR__ . '/../..' . '/src/SliceBuilders/WindowBuilder.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

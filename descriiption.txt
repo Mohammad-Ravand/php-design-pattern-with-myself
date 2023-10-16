@@ -1,0 +1,11 @@
+Abstract Factory
+
+intent:
+Abstract Factory is a creational design patern that lets you produce families of related objects
+without specifying their concrete classes.
+
+
+Problem:
+Imagine that you are creating a furniture shop simulator, your code consis of classes that represent:
+1: A family of related products, say: Chair + Sofa + CoffeTable
+2: Sevral variats of this familiy for example , products Chair +Sofa + CoffeTable are avilable in these variants : Modern, Victorian, ArtDeco

@@ -7,20 +7,35 @@ namespace Composer\Autoload;
 class ComposerStaticInite28f8763df7612f7b8e85b262cbd6b86
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'A' => 
         array (
-            'Pc\\PhpDesignPatterns\\' => 21,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Pc\\PhpDesignPatterns\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
+        'App\\Factory\\ArtFurnitureFactory' => __DIR__ . '/../..' . '/src/Factory/ArtFurnitureFactory.php',
+        'App\\Factory\\FurnitureFactory' => __DIR__ . '/../..' . '/src/Factory/FurnitureFactory.php',
+        'App\\Factory\\ModernFurnitureFactory' => __DIR__ . '/../..' . '/src/Factory/ModernFurnitureFactory.php',
+        'App\\Factory\\VictorianFurnitureFactory' => __DIR__ . '/../..' . '/src/Factory/VictorianFurnitureFactory.php',
+        'App\\Products\\Chair\\ArtChair' => __DIR__ . '/../..' . '/src/Products/Chair/ArtChair.php',
+        'App\\Products\\Chair\\ChairInterface' => __DIR__ . '/../..' . '/src/Products/Chair/ChairInterface.php',
+        'App\\Products\\Chair\\ModernChair' => __DIR__ . '/../..' . '/src/Products/Chair/ModernChair.php',
+        'App\\Products\\Chair\\VictorianChair' => __DIR__ . '/../..' . '/src/Products/Chair/VictorianChair.php',
+        'App\\Products\\CoffeTable\\ArtCoffeTable' => __DIR__ . '/../..' . '/src/Products/CoffeTable/ArtCoffeTable.php',
+        'App\\Products\\CoffeTable\\CoffeTableInterface' => __DIR__ . '/../..' . '/src/Products/CoffeTable/CoffeTableInterface.php',
+        'App\\Products\\CoffeTable\\ModernCoffeTable' => __DIR__ . '/../..' . '/src/Products/CoffeTable/ModernCoffeTable.php',
+        'App\\Products\\CoffeTable\\VictorianCoffeTable' => __DIR__ . '/../..' . '/src/Products/CoffeTable/VictorianCoffeTable.php',
+        'App\\Products\\Sofa\\ArtSofa' => __DIR__ . '/../..' . '/src/Products/Sofa/ArtSofa.php',
+        'App\\Products\\Sofa\\SofaInterface' => __DIR__ . '/../..' . '/src/Products/Sofa/SofaInterface.php',
+        'App\\Products\\Sofa\\VictorianSofa' => __DIR__ . '/../..' . '/src/Products/Sofa/VictorianSofa.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

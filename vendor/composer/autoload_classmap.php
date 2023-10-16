@@ -6,5 +6,20 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Factory\\ArtFurnitureFactory' => $baseDir . '/src/Factory/ArtFurnitureFactory.php',
+    'App\\Factory\\FurnitureFactory' => $baseDir . '/src/Factory/FurnitureFactory.php',
+    'App\\Factory\\ModernFurnitureFactory' => $baseDir . '/src/Factory/ModernFurnitureFactory.php',
+    'App\\Factory\\VictorianFurnitureFactory' => $baseDir . '/src/Factory/VictorianFurnitureFactory.php',
+    'App\\Products\\Chair\\ArtChair' => $baseDir . '/src/Products/Chair/ArtChair.php',
+    'App\\Products\\Chair\\ChairInterface' => $baseDir . '/src/Products/Chair/ChairInterface.php',
+    'App\\Products\\Chair\\ModernChair' => $baseDir . '/src/Products/Chair/ModernChair.php',
+    'App\\Products\\Chair\\VictorianChair' => $baseDir . '/src/Products/Chair/VictorianChair.php',
+    'App\\Products\\CoffeTable\\ArtCoffeTable' => $baseDir . '/src/Products/CoffeTable/ArtCoffeTable.php',
+    'App\\Products\\CoffeTable\\CoffeTableInterface' => $baseDir . '/src/Products/CoffeTable/CoffeTableInterface.php',
+    'App\\Products\\CoffeTable\\ModernCoffeTable' => $baseDir . '/src/Products/CoffeTable/ModernCoffeTable.php',
+    'App\\Products\\CoffeTable\\VictorianCoffeTable' => $baseDir . '/src/Products/CoffeTable/VictorianCoffeTable.php',
+    'App\\Products\\Sofa\\ArtSofa' => $baseDir . '/src/Products/Sofa/ArtSofa.php',
+    'App\\Products\\Sofa\\SofaInterface' => $baseDir . '/src/Products/Sofa/SofaInterface.php',
+    'App\\Products\\Sofa\\VictorianSofa' => $baseDir . '/src/Products/Sofa/VictorianSofa.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );

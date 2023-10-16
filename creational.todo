@@ -1,0 +1,155 @@
+{
+  "todotree": {
+    "tree": [
+      {
+        "key": 1697484259833,
+        "children": [
+          {
+            "key": 1697484386784,
+            "children": [
+              {
+                "key": 1697484359703,
+                "children": [],
+                "todo": {
+                  "content": "produce families of related objects",
+                  "id": 1697484359703,
+                  "level": "default",
+                  "done": false,
+                  "start": 1697484359704
+                }
+              }
+            ],
+            "todo": {
+              "content": "abstract",
+              "id": 1697484386784,
+              "level": "default",
+              "done": false,
+              "start": 1697484386784
+            }
+          }
+        ],
+        "todo": {
+          "content": "builder",
+          "id": 1697484259833,
+          "level": "default",
+          "done": false,
+          "start": 1697484259833
+        }
+      },
+      {
+        "key": 1697484268379,
+        "children": [],
+        "todo": {
+          "content": "bridge",
+          "id": 1697484268379,
+          "level": "default",
+          "done": false,
+          "start": 1697484268379
+        }
+      },
+      {
+        "key": 1697484275612,
+        "children": [],
+        "todo": {
+          "content": "factory-method",
+          "id": 1697484275612,
+          "level": "default",
+          "done": false,
+          "start": 1697484275612
+        }
+      },
+      {
+        "key": 1697484281923,
+        "children": [],
+        "todo": {
+          "content": "composite",
+          "id": 1697484281923,
+          "level": "default",
+          "done": false,
+          "start": 1697484281923
+        }
+      },
+      {
+        "key": 1697484290596,
+        "children": [],
+        "todo": {
+          "content": "decorator",
+          "id": 1697484290596,
+          "level": "default",
+          "done": false,
+          "start": 1697484290596
+        }
+      },
+      {
+        "key": 1697484295252,
+        "children": [],
+        "todo": {
+          "content": "prototype",
+          "id": 1697484295252,
+          "level": "default",
+          "done": false,
+          "start": 1697484295252
+        }
+      },
+      {
+        "key": 1697484299195,
+        "children": [],
+        "todo": {
+          "content": "signleton",
+          "id": 1697484299195,
+          "level": "default",
+          "done": false,
+          "start": 1697484299195
+        }
+      },
+      {
+        "key": 1697484303539,
+        "children": [],
+        "todo": {
+          "content": "facade",
+          "id": 1697484303539,
+          "level": "default",
+          "done": false,
+          "start": 1697484303539
+        }
+      },
+      {
+        "key": 1697484306659,
+        "children": [],
+        "todo": {
+          "content": "flyweight",
+          "id": 1697484306659,
+          "level": "default",
+          "done": false,
+          "start": 1697484306659
+        }
+      },
+      {
+        "key": 1697484318052,
+        "children": [],
+        "todo": {
+          "content": "proxy",
+          "id": 1697484318052,
+          "level": "default",
+          "done": false,
+          "start": 1697484318052
+        }
+      }
+    ],
+    "expandKeys": [
+      1697484259833,
+      1697484386784
+    ],
+    "schema": "https://github.com/Saber2pr/vsc-ext-todolist/blob/master/src/api/type.ts#L3",
+    "add_mode": "bottom",
+    "virtual": false,
+    "showLine": false,
+    "playFontSize": 24,
+    "title": "creational",
+    "autoSort": false,
+    "showEndTime": false,
+    "simpleMode": false,
+    "lang": "en",
+    "version": "1697484403067"
+  }
+}

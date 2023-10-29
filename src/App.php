@@ -1,27 +1,26 @@
 <?php
 namespace App;
 
-use App\Contracts\Notifier;
-use App\Notifiers\SmsNotifier;
-use App\Notifiers\FaceBookNotifier;
-
 class App{
-    private Notifier $notifier;
+    
     public function __construct(){
     }
 
-    
+    public function run(){
+        $leaf_one = new Leaf();
+        $leaf_two = new Leaf();
+        $leaf_three = new Leaf();
 
-    public function notify(){
-        // send notify by sms
-        $smsNotifier = new SmsNotifier();
-        $smsNotifier->setMessage("send sms message");
+        $composite = new Composite();
+
+        $composite->add($leaf_one);
+        $composite->add($leaf_two);
+        $composite->add($leaf_three);
+
+        //get all components
+        $composite->execute();
         
-        // send notify by facebook
-        $facebookNotifier = new FaceBookNotifier($smsNotifier);
-        $facebookNotifier->setMessage("send facebook message");
-
-        $facebookNotifier->send();
 
     }
+
 }

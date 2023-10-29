@@ -7,20 +7,26 @@ namespace Composer\Autoload;
 class ComposerStaticInite28f8763df7612f7b8e85b262cbd6b86
 {
     public static $prefixLengthsPsr4 = array (
-        'P' => 
+        'A' => 
         array (
-            'Pc\\PhpDesignPatterns\\' => 21,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Pc\\PhpDesignPatterns\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
     public static $classMap = array (
+        'App\\App' => __DIR__ . '/../..' . '/src/App.php',
+        'App\\Contracts\\Notifier' => __DIR__ . '/../..' . '/src/Contracts/Notifier.php',
+        'App\\Notifiers\\FaceBookNotifier' => __DIR__ . '/../..' . '/src/Notifiers/FaceBookNotifier.php',
+        'App\\Notifiers\\NotificationDecorator' => __DIR__ . '/../..' . '/src/Notifiers/NotificationDecorator.php',
+        'App\\Notifiers\\SlackNotifier' => __DIR__ . '/../..' . '/src/Notifiers/SlackNotifier.php',
+        'App\\Notifiers\\SmsNotifier' => __DIR__ . '/../..' . '/src/Notifiers/SmsNotifier.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 

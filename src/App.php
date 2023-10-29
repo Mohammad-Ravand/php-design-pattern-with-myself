@@ -6,20 +6,14 @@ class App{
     public function __construct(){
     }
 
-    public function run(){
-        $leaf_one = new Leaf();
-        $leaf_two = new Leaf();
-        $leaf_three = new Leaf();
+    public function main(){
+        $menuGroup = new MenuGroup();
 
-        $composite = new Composite();
+        $menuGroup->addChildren(new MenuITem());
+        $menuGroup->addChildren(new MenuITem());
+        $menuGroup->addChildren(new MenuITem());
 
-        $composite->add($leaf_one);
-        $composite->add($leaf_two);
-        $composite->add($leaf_three);
-
-        //get all components
-        $composite->execute();
-        
+        echo $menuGroup->render();
 
     }
 

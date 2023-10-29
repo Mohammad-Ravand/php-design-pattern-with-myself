@@ -6,11 +6,10 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\App' => $baseDir . '/src/App.php',
-    'App\\Contracts\\Notifier' => $baseDir . '/src/Contracts/Notifier.php',
-    'App\\Notifiers\\FaceBookNotifier' => $baseDir . '/src/Notifiers/FaceBookNotifier.php',
-    'App\\Notifiers\\NotificationDecorator' => $baseDir . '/src/Notifiers/NotificationDecorator.php',
-    'App\\Notifiers\\SlackNotifier' => $baseDir . '/src/Notifiers/SlackNotifier.php',
-    'App\\Notifiers\\SmsNotifier' => $baseDir . '/src/Notifiers/SmsNotifier.php',
+    'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'PhpToken' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
+    'Stringable' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+    'UnhandledMatchError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+    'ValueError' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
 );

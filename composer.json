@@ -11,5 +11,7 @@
             "email": "m.ravand@clickhub.ir"
         }
     ],
-    "require": {}
+    "require": {
+        "nesbot/carbon": "^2.71"
+    }
 }
